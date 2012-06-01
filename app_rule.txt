@@ -1,0 +1,22 @@
+/home/ugame_hhx/sofeware_workspace/auto_build_python_tool/,0,.,.,ChangeLog=/home/ugame_hhx/share_snk_burn/snk_4760_Changelog.txt
+/home/ugame_hhx/sofeware_workspace/auto_build_python_tool/,0,.,.,rm -rf ./l350-app/
+/home/ugame_hhx/sofeware_workspace/auto_build_python_tool/,0,.,.,rm -rf ./l350-config/
+/home/ugame_hhx/sofeware_workspace/ingenic_ext3,origin/SNK_FOR_AES,.,.,pwd
+/home/ugame_hhx/sofeware_workspace/snk_desktop,origin/stable_release,/home/ugame_hhx/sofeware_workspace/snk_desktop/snk_desktop.bin,/home/ugame_hhx/sofeware_workspace/auto_build_python_tool/l350-app/local/snk_desktop,make
+/home/ugame_hhx/sofeware_workspace/fba_v5,origin/stables_emulator_AES,/home/ugame_hhx/sofeware_workspace/fba_v5/ezxfba/nxu.dge,/home/ugame_hhx/sofeware_workspace/auto_build_python_tool/l350-app/local/snk_desktop/,make
+/home/ugame_hhx/sofeware_workspace/snk_u-boot-1.1.6,origin/master,.,.,make lepus60b_msc_recovery_config
+/home/ugame_hhx/sofeware_workspace/snk_u-boot-1.1.6,origin/master,/home/ugame_hhx/sofeware_workspace/snk_u-boot-1.1.6/mbr-uboot-msc.bin,/home/ugame_hhx/sofeware_workspace/ingenic_ext3,PATH=/opt/mipseltools-gcc412-glibc261/bin/=make
+/home/ugame_hhx/sofeware_workspace/snk_linux-2.6.31.3,origin/test_kernel,/home/ugame_hhx/sofeware_workspace/snk_linux-2.6.31.3/arch/mips/boot/uImage,/home/ugame_hhx/sofeware_workspace/ingenic_ext3,make uImage
+/home/ugame_hhx/sofeware_workspace/snk_boot_logo/,origin/snk_enter_cartoon_480x272,/home/ugame_hhx/sofeware_workspace/snk_boot_logo/enter_cartoon.dge,/home/ugame_hhx/sofeware_workspace/auto_build_python_tool/l350-app/local/snk_desktop,make
+/home/ugame_hhx/sofeware_workspace/auto_build_python_tool/,0,.,.,start_create
+/home/ugame_hhx/sofeware_workspace/auto_build_python_tool/,0,/home/ugame_hhx/sofeware_workspace/auto_build_python_tool/version.text,/home/ugame_hhx/sofeware_workspace/auto_build_python_tool/l350-app/local/,pwd
+/home/ugame_hhx/sofeware_workspace/auto_build_python_tool/,0,/home/ugame_hhx/sofeware_workspace/auto_build_python_tool/l350-app/,/home/ugame_hhx/sofeware_workspace/ingenic_ext3,pwd
+/home/ugame_hhx/sofeware_workspace/ingenic_ext3,0,.,.,./build_ext3.sh
+/home/ugame_hhx/sofeware_workspace/ingenic_ext3,0,.,.,git add .
+/home/ugame_hhx/sofeware_workspace/ingenic_ext3,0,.,.,git commit -m "auto commit by auto build" 
+/home/ugame_hhx/sofeware_workspace/ingenic_ext3,0,.,.,git push origin HEAD:SNK_FOR_AES 
+/home/ugame_hhx/sofeware_workspace/ingenic_ext3,0,.,.,tar_with_git_version=SNK_4760_BURN_V=uImage=mbr-uboot-msc.bin=rootfs.ext3=appfs.ext3=configfs.ext3
+/home/ugame_hhx/sofeware_workspace/ingenic_ext3,0,/home/ugame_hhx/sofeware_workspace/ingenic_ext3/*.ext3,/home/ugame_hhx/share_snk_burn/,pwd
+/home/ugame_hhx/sofeware_workspace/ingenic_ext3,0,/home/ugame_hhx/sofeware_workspace/ingenic_ext3/mbr-uboot-msc.bin,/home/ugame_hhx/share_snk_burn/,pwd
+/home/ugame_hhx/sofeware_workspace/ingenic_ext3,0,/home/ugame_hhx/sofeware_workspace/ingenic_ext3/uImage,/home/ugame_hhx/share_snk_burn/,pwd
+/home/ugame_hhx/sofeware_workspace/ingenic_ext3,0,.,.,mv /home/ugame_hhx/sofeware_workspace/ingenic_ext3/*.tar.bz2 /home/ugame_hhx/share_snk_burn/
